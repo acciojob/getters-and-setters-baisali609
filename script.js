@@ -13,8 +13,8 @@ class Person {
         return this.#age;
     }
 
-    set age() {
-        return this.#age;
+    set age(age) {
+            this.#age = age;
     }
 }
 
