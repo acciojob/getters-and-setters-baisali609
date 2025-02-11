@@ -14,7 +14,7 @@ class Person {
     }
 
     set age() {
-        return this.age;
+        return this.#age;
     }
 }
 
