@@ -13,12 +13,8 @@ class Person {
         return this.#age;
     }
 
-    set age(age) {
-        if (age > 0) {
-            this.#age = age;
-        } else {
-            console.log("Age must be a positive number.");
-        }
+    set age() {
+        return this.age;
     }
 }
 
